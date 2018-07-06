@@ -35,7 +35,7 @@ docker run --name alpine-nginx -p 8080:80 -v /public:/var/www/html -d alpine-ngi
 ```
 
 
-## NGINX forbiden
+## NGINX forbidden
 If you have problems with nginx permissions ("/var/www/html/index.php" is forbidden (13: Permission denied))
 
 Try:
